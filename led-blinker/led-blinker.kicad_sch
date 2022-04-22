@@ -223,7 +223,7 @@
   (symbol (lib_id "Device:R") (at 101.6 48.26 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 275b6416-db29-42cc-9307-bf426917c3b4)
-    (property "Reference" "R?" (id 0) (at 104.14 46.9899 0)
+    (property "Reference" "R1" (id 0) (at 104.14 46.9899 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "" (id 1) (at 104.14 49.5299 0)
@@ -242,7 +242,7 @@
   (symbol (lib_id "Device:LED") (at 88.9 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 65d5c78a-4863-4a6e-8ee9-7f7694e5dd47)
-    (property "Reference" "D?" (id 0) (at 87.3125 52.07 0))
+    (property "Reference" "D1" (id 0) (at 87.3125 52.07 0))
     (property "Value" "" (id 1) (at 87.3125 54.61 0))
     (property "Footprint" "" (id 2) (at 88.9 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -257,7 +257,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Male") (at 67.31 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f9329c69-2177-408e-ab28-0f41ea23d485)
-    (property "Reference" "J?" (id 0) (at 67.945 43.18 0))
+    (property "Reference" "J1" (id 0) (at 67.945 43.18 0))
     (property "Value" "" (id 1) (at 67.945 45.72 0))
     (property "Footprint" "" (id 2) (at 67.31 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -275,13 +275,13 @@
 
   (symbol_instances
     (path "/65d5c78a-4863-4a6e-8ee9-7f7694e5dd47"
-      (reference "D?") (unit 1) (value "LED") (footprint "")
+      (reference "D1") (unit 1) (value "LED") (footprint "")
     )
     (path "/f9329c69-2177-408e-ab28-0f41ea23d485"
-      (reference "J?") (unit 1) (value "Conn_01x02_Male") (footprint "")
+      (reference "J1") (unit 1) (value "Conn_01x02_Male") (footprint "")
     )
     (path "/275b6416-db29-42cc-9307-bf426917c3b4"
-      (reference "R?") (unit 1) (value "R") (footprint "")
+      (reference "R1") (unit 1) (value "R") (footprint "")
     )
   )
 )
